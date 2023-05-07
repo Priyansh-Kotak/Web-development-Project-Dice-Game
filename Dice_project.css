@@ -1,0 +1,112 @@
+body {
+    background-color: Turquoise;
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+
+#heading {
+    font-family: "Lobster";
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.header {
+    text-align: center;
+    font-family: "Shadows Into Light";
+}
+
+img{
+    height: 150px;
+    position: relative;
+    top: 12px;
+    right: -24px;
+}
+
+.name{
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-top:13px ;
+    
+}
+
+.Player1{
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    font-family: "Anton";
+}
+
+.Player2{
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    right: 500px;
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    font-family: "Anton";
+
+}
+
+footer{
+    
+    border: 3px solid black;
+    height:50px;
+    width: 1530px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+.copyright{
+    text-align: center;
+    color: aquamarine;
+    font-size: 20px;
+ 
+    
+}
+
+.Rule{
+    border: 3px solid black;
+    display: inline-block;
+    /* text-align: left; */
+    width: 400px;   
+}
+
+.Rules{
+    text-align: center;
+    font-size: 20px;
+}
+
+.ScoreBoard{
+    border: 3px solid black;
+    display: inline-block;
+    position: absolute;
+    left: 1200px;
+    /* bottom: 282px; */
+    top:227px;
+    text-align: center;
+    width: 300px;
+    height: 300px;  
+}
+
+.Score1{
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+
+}
+.Score2{
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    right:0 ;
+}
